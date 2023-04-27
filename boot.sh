@@ -2,9 +2,7 @@
 echo Note:
 echo This script requires some setup. Make sure you read the Readme.md!
 # download megadown script
-curl -L -o megadown https://raw.githubusercontent.com/tonikelope/megadown/master/megadown
-# make it executable
-chmod +x megadown
+sudo apt-get -y install megadown
 # download the mega file using megadown
 ./megadown 'https://mega.nz/file/Kl5HlSTD#P6WNrDQrypvHOARnnxdw426SXl2qsBHXWKLaFBcf28M'
 # rename the downloaded file to w10.qcow2
